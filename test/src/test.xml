@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channel>
+	<title>Search Daum Open API</title>
+	<description>Daum Open API search result</description>
+	<generator>Daum Open API</generator>
+	<link>http://dna.daum.net/apis</link>
+	<lastBuildDate>Sun, 29 Jun 2014 21:56:11 +0900</lastBuildDate>
+	<totalCount>1</totalCount>
+	<pageCount>1</pageCount>
+	<result>1</result>
+	<item>
+		<lat>33.31188020103607</lat>
+		<id>N5860333</id>
+		<subAddress>0</subAddress>
+		<placeName>Not avaliable</placeName>
+		<newAddress>남원읍 의귀리 1482-14|남원읍 의귀리 1522-1</newAddress>
+		<lng>126.71361376860426</lng>
+		<localName_2>서귀포시</localName_2>
+		<buildingAddress>의귀교회</buildingAddress>
+		<mountain />
+		<mainAddress>7</mainAddress>
+		<point_x>126.71361376860426</point_x>
+		<point_y>33.31188020103607</point_y>
+		<localName_1>제주특별자치도</localName_1>
+		<title>제주특별자치도 서귀포시 남원읍 남조로381번길 7</title>
+		<isNewAddress>Y</isNewAddress>
+		<point_wx>433327</point_wx>
+		<point_wy>-50309</point_wy>
+		<localName_3>남원읍 남조로381번길</localName_3>
+	</item>
+</channel>

@@ -1,0 +1,40 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="channel">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="title"/>
+        <xs:element type="xs:string" name="description"/>
+        <xs:element type="xs:string" name="generator"/>
+        <xs:element type="xs:anyURI" name="link"/>
+        <xs:element type="xs:string" name="lastBuildDate"/>
+        <xs:element type="xs:byte" name="totalCount"/>
+        <xs:element type="xs:byte" name="pageCount"/>
+        <xs:element type="xs:byte" name="result"/>
+        <xs:element name="item">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:float" name="lat"/>
+              <xs:element type="xs:string" name="id"/>
+              <xs:element type="xs:byte" name="subAddress"/>
+              <xs:element type="xs:string" name="placeName"/>
+              <xs:element type="xs:string" name="newAddress"/>
+              <xs:element type="xs:float" name="lng"/>
+              <xs:element type="xs:string" name="localName_2"/>
+              <xs:element type="xs:string" name="buildingAddress"/>
+              <xs:element type="xs:string" name="mountain"/>
+              <xs:element type="xs:byte" name="mainAddress"/>
+              <xs:element type="xs:float" name="point_x"/>
+              <xs:element type="xs:float" name="point_y"/>
+              <xs:element type="xs:string" name="localName_1"/>
+              <xs:element type="xs:string" name="title"/>
+              <xs:element type="xs:string" name="isNewAddress"/>
+              <xs:element type="xs:int" name="point_wx"/>
+              <xs:element type="xs:int" name="point_wy"/>
+              <xs:element type="xs:string" name="localName_3"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

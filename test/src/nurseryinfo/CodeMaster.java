@@ -28,6 +28,8 @@ public class CodeMaster {
 									{"¡¶¡÷","17"}
 							};
 	public static String URLPTN="http://api.childcare.go.kr/mediate/rest/cpmsapi0[apinum]/cpmsapi0[apinum]/request?key=[key]";
+	public static String URLPTN2="http://apis.daum.net/local/geo/addr2coord?apikey=3040786d24ff62912403dcb6fd87524367ad7055&q=[addr]&output=xml";
+	
 	public static String URLForce="http://info.childcare.go.kr/info/pnis/search/preview/BasisPresentConditionSlPu.jsp?flag=GH&STCODE_POP=";
 	
 	public static String chiefOfNursery_keys="<a href=\"#none\" title=\"º≥∏Ì±€ ¥›±‚\" class=\"close\"><img src=\"http://img.childcare.go.kr/info/btn/btn_close1.gif\" alt=\"¥›±‚\" /></a>\n							</span>\n						</span>\n					</th>\n					<td>";
