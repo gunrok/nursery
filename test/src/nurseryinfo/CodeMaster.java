@@ -29,8 +29,15 @@ public class CodeMaster {
 							};
 	public static String URLPTN="http://api.childcare.go.kr/mediate/rest/cpmsapi0[apinum]/cpmsapi0[apinum]/request?key=[key]";
 	public static String URLPTN2="http://apis.daum.net/local/geo/addr2coord?apikey=3040786d24ff62912403dcb6fd87524367ad7055&q=[addr]&output=xml";
+	//요약정보
+	public static String URLForce="http://info.childcare.go.kr/info/pnis/search/preview/SummaryInfoSlPu.jsp?flag=YJ&STCODE_POP=";
+	//기본현황
+	public static String URLForce2="http://info.childcare.go.kr/info/pnis/search/preview/BasisPresentConditionSlPu.jsp?flag=GH&STCODE_POP=";
+	//건강안전
+	public static String URLForce3="http://info.childcare.go.kr/info/pnis/search/preview/HealthSafetySlPu.jsp?flag=GA&STCODE_POP=";
+	//평가
+	public static String URLForce4="http://info.childcare.go.kr/info/pnis/search/preview/AppraisaAuthenticationSlPu.jsp?flag=PI&STCODE_POP=";
 	
-	public static String URLForce="http://info.childcare.go.kr/info/pnis/search/preview/BasisPresentConditionSlPu.jsp?flag=GH&STCODE_POP=";
 	
 	public static String chiefOfNursery_keys="<a href=\"#none\" title=\"설명글 닫기\" class=\"close\"><img src=\"http://img.childcare.go.kr/info/btn/btn_close1.gif\" alt=\"닫기\" /></a>\n							</span>\n						</span>\n					</th>\n					<td>";
 	public static String chiefOfNursery_keye="</td>\n					<th>\n						<span class=\"tool_tip\">\n							<a href=\"#none\" title=\"설명글 열기";
